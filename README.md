@@ -12,7 +12,7 @@ $ repo init -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b and
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Clone m20lte repo
-$ git clone https://github.com/eun0115/android_device_m20lte-pbrp device/samsung/m20lte
+$ git clone hhttps://github.com/PitchBlackRecoveryProject/android_device_m20lte-pbrp -b android-9.0 device/samsung/m20lte
 
 # Build
 $ source build/envsetup.sh ; lunch omni_m20lte-eng ; mka pbrp
