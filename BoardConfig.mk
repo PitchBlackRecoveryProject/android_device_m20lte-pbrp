@@ -114,3 +114,6 @@ TW_HAS_DOWNLOAD_MODE := true
 # Platform Info
 PLATFORM_VERSION := 16.1.0
 PLATFORM_SECURITY_PATCH := 2099-12-31
+
+# PBRP Flags
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
