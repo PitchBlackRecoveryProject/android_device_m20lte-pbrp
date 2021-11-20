@@ -20,7 +20,7 @@ PRODUCT_RELEASE_NAME := m20lte
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_DEVICE := m20lte
 PRODUCT_NAME := omni_m20lte
